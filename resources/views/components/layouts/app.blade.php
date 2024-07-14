@@ -12,5 +12,9 @@
             @include('components.nav')
             {{ $slot }}
         </div>
+
+        <script>
+            console.log("hello");
+        </script>
     </body>
 </html>
